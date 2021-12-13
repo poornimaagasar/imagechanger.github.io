@@ -1,0 +1,32 @@
+.fa
+{
+    color:black;
+    font-size:4rem;
+}
+body
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('images/p1.jpg') no-repeat;
+    background-size:100% 100%;
+}
+button
+{
+   
+    position:relative;
+}   
+button{
+    color:#ffffff;
+    text-align: center;
+    -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -ms-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+     opacity: 1;
+}
+
+.button {
+    opacity: 0;
+}
+
